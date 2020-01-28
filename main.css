@@ -19,7 +19,9 @@ html {
 :root {
     --red: #E93F33;
     --red-light: #FAE7E6;
+    --red-pale: #FEFAF8;
     --grey: #AAAAAA;
+    --grey-dark: #706F6E;
     --black: black;
 }
 
@@ -27,14 +29,9 @@ html {
 
 /* Styling by Kyle for middle part */
 /* Latest news Section */
-.latest-news-part {
+.center-alignment {
     margin: 0 auto;
     max-width: 1192px;
-}
-
-.latest-news-part > h2 {
-    padding-left: 12px;
-    margin-bottom: 12px;
 }
 
 .hover-black:hover {
@@ -45,6 +42,8 @@ html {
 .title-font {
     font-size: 3rem;
     color: var(--red);
+    padding-left: 12px;
+    margin: 40px 0 12px 0;
 }
 
 .subtitle-font {
@@ -67,7 +66,7 @@ html {
     cursor: pointer;
 }
 
-.news {
+.responsive-4-col {
     display: grid;
     grid-template-columns: repeat(auto-fit, 294px);
     justify-content: center;
@@ -83,5 +82,95 @@ html {
 .new > img {
     width: 100%;
     height: 100%;
+}
+
+/* Latest funding section */
+.space-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.space-between > div > ul {
+    display: flex;
+    align-items: flex-end;
+    text-decoration: none;
+    list-style: none;
+    color: var(--red);
+    font-size: 1.6rem;
+    font-weight: 200;
+}
+
+.space-between > div > ul > li {
+    margin: 0 6px;
+}
+
+.funding {
+    display: grid;
+    grid-template-rows: 39.3px 57.3px 82.5px 69px;
+    padding: 12px;
+}
+
+.funding > img {
+    position: absolute;
+    margin: 10.7px;
+    width: 60px;
+    height: 60px;
+}
+
+.bg-red {
+    background-color: var(--red);
+    padding: 10.67px 16px 10.67px 84px;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+
+.bg-red-light {
+    background-color: var(--red-light);
+    padding: 10.67px 16px 10.67px 84px;
+    font-size: 1.4rem;
+}
+
+.bold {
+    font-weight: 800;
+    font-size: 1.6rem;
+}
+
+.bg-red-pale {
+    background-color: var(--red-pale);
+    padding: 16px;
+    font-size: 1.3rem;
+    color: var(--grey-dark);
+}
+
+.bg-red-pale > span:hover {
+    cursor: pointer;
+}
+
+.funding-details {
+    display: grid;
+    grid-template-columns: 16px 1fr;
+    column-gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.funding-details > i {
+    font-size: 1.6rem;
+    color: var(--black);
+}
+
+.funding-details > p {
+    color: var(--grey-dark);
+    font-size: 1.4rem;
+}
+
+.border-btm-pink {
+    border-bottom: 3px solid var(--red-light);
+}
+
+.pointer {
+    cursor: pointer;
 }
 /* Styling by Jassi for bottom part */
