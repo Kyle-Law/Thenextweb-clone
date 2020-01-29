@@ -127,12 +127,40 @@ header div ul li a:hover {
     padding-left: 18px;
 }
 /* article section with images ------------jasssi */
-
-.cover-story {
-    display: flex;
-
+/*Kyle Section */
+.cover {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(2, 220px);
+    grid-gap: 10px;
+    margin:0 10px;
 }
 
+.large {
+    font-size: 1.5rem;
+}
+
+.span-row-2 {
+    grid-row: span 2;
+}
+
+.top-img-1 {
+    background: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-796x419.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.top-img-2 {
+    background: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Whale-796x417.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.top-img-3 {
+    background: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/Google-translate-796x417.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 /* Styling by Kyle for middle part */
 /* Latest news Section */
 .center-alignment {
