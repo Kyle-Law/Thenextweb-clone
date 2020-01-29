@@ -130,28 +130,24 @@ header div ul li a:hover {
 /*Kyle Section */
 .cover {
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: repeat(2, 220px);
+    grid-template-rows: repeat(3, 100px);
+    grid-template-columns: 1fr;
     grid-gap: 10px;
     margin:0 10px;
 }
 
 .large {
-    font-size: 2.5rem;
+    font-size: 1.6rem;
 }
 
 .larger {
-    font-size: 4.5rem;
+    font-size: 1.6rem;
 }
-
-
-
 
 .item-title-top > h5{
     color: white;
     z-index: 2;
 }
-
 
 .item-title-top {
     position: relative;
@@ -161,13 +157,6 @@ header div ul li a:hover {
     grid-template-rows: 1fr repeat(2, max-content);
     align-items: flex-end;
     padding: 12px;
-}
-
-.cover {
-    display: grid;
-    grid-template-rows: repeat(3, 200px);
-    grid-gap: 10px;
-    margin:0 10px;
 }
 
 .span-row-2 {
@@ -181,6 +170,14 @@ header div ul li a:hover {
         grid-template-rows: repeat(2, 220px);
         grid-gap: 10px;
         margin:0 10px;
+    }
+
+    .larger {
+        font-size: 4.5rem;
+    }
+
+    .large {
+        font-size: 2.5rem;
     }
 
     .span-row-2 {
@@ -618,11 +615,31 @@ footer ul {
 }
 
 footer ul li {
-    padding: 0 20px;
+    padding: 0 25px;
+
     
 
 }
 
 footer ul li a {
-    font-size: 20px;
+    font-size: 25px;
+    text-decoration: none;
+    color: #FAE7E6;
+
 }
+.round li{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #555;
+}
+.footer-links li{
+    padding: 0 5px;
+    font-size: 14px;
+}
+
+.foot-notes {
+    background-color: black;
+    color: rgba(97,97,97,0.57);
+}
+
