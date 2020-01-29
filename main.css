@@ -309,6 +309,11 @@ header div ul li a:hover {
   height: 100%;
 }
 
+.border-right {
+  border-right: 2px solid;
+  padding-right: 10px;
+}
+
 @media (min-width: 768px) {
   .responsive-4-col {
     display: grid;
