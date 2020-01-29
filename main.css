@@ -35,6 +35,10 @@ nav {
   align-content: center;
 }
 
+ul {
+  list-style-type: none;
+}
+
 footer ul {
   display: flex;
   align-items: center;
@@ -50,26 +54,11 @@ nav div ul li {
   display: inline-block;
 }
 
-.foot-notes a {
-  text-decoration: none;
-  color: var(--white);
-  margin: 0 10px;
-  font-size: 1.1rem;
-}
-
 footer ul li a {
   font-size: 25px;
   text-decoration: none;
   color: #fae7e6;
   list-style-type: none;
-}
-
-nav div ul li a {
-  color: #999;
-  font-size: 13px;
-  text-decoration: none;
-  padding: 0 6px;
-  font-weight: lighter;
 }
 
 header div ul li a {
@@ -81,6 +70,21 @@ header div ul li a {
   list-style-type: none;
   font-family: sans-serif;
   font-weight: 500;
+}
+
+nav div ul li a {
+  color: #999;
+  font-size: 13px;
+  text-decoration: none;
+  padding: 0 6px;
+  font-weight: lighter;
+}
+
+.foot-notes a {
+  text-decoration: none;
+  color: var(--white);
+  margin: 0 10px;
+  font-size: 1.1rem;
 }
 
 .footer-links li a {
@@ -122,10 +126,6 @@ header {
 #search-bar {
   color: #aaa;
   font-size: 20px;
-}
-
-ul {
-  list-style-type: none;
 }
 
 header div ul {
@@ -362,13 +362,6 @@ header div ul li a:hover {
   font-weight: 200;
 }
 
-.item > ul > li {
-  color: var(--grey-dark);
-  font-size: 1.3rem;
-  border-bottom: 1px solid var(--grey-light);
-  padding: 4px 0;
-}
-
 .round li {
   margin: 0 10px;
   width: 50px;
@@ -377,6 +370,13 @@ header div ul li a:hover {
   background-color: #333;
   display: grid;
   place-items: center;
+}
+
+.item > ul > li {
+  color: var(--grey-dark);
+  font-size: 1.3rem;
+  border-bottom: 1px solid var(--grey-light);
+  padding: 4px 0;
 }
 
 .space-between > div > ul > li {
