@@ -358,7 +358,6 @@ header div ul li a:hover {
   height: 100%;
 }
 
-
 @media (min-width: 768px) {
   .responsive-4-col {
     display: grid;
@@ -395,17 +394,18 @@ header div ul li a:hover {
 /* Latest funding section */
 .fundings {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(294px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(294px, 1fr));
   justify-content: center;
 }
 
 @media (min-width: 768px) {
   .fundings {
     display: grid;
-    grid-template-columns: repeat(3, minmax(294px,1fr));
+    grid-template-columns: repeat(3, minmax(294px, 1fr));
     justify-content: center;
   }
 }
+
 @media (min-width: 768px) {
   .space-between {
     display: grid;
@@ -449,7 +449,7 @@ header div ul li a:hover {
 
   .fundings {
     display: grid;
-    grid-template-columns: repeat(4, minmax(294px,1fr));
+    grid-template-columns: repeat(4, minmax(294px, 1fr));
     justify-content: center;
   }
 }
