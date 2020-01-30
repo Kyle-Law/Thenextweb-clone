@@ -9,10 +9,11 @@
     <script src="https://kit.fontawesome.com/6887534a1e.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <img class="logo display-none__window" src="images/logo.png" alt="logo">
     <!-- Top 3 Part by Jassi -->
-    <nav>
-        <div>
-            <ul id="nav-items-left">
+    <nav class="display-none__mobile">
+        <div class="space-between-align height-32px padding-horizontal-15px padding-left-110px">
+            <ul>
                 <li><a href="">News</a></li>
                 <li><a href="">Events <i class="fas fa-caret-down"></i></a></li>
                 <li><a href="">Business <i class="fas fa-caret-down"></i></a></li>
@@ -20,7 +21,7 @@
                 <li><a href="">Spaces</a></li>
                 <li><a href="">Terms & Conditions</a></li>
             </ul>
-            <ul id="nav-items-right">
+            <ul>
                 <li><a href="">About</a></li>
                 <li><a href="">Team</a></li>
                 <li><a href="">Advertise</a></li>
@@ -31,8 +32,8 @@
     </nav>
 
     <header>
-        <div>
-            <ul>
+        <div class="display-none__mobile">
+            <ul class="padding-left-110px">
                 <li><a href="#">LATEST</a></li>
                 <li><a href="#">HARD FORK</a></li>
                 <li><a href="#">PLUGGED</a></li>
@@ -41,8 +42,11 @@
                 <li><a href="#">README</a></li>
             </ul>
         </div>
-        <div id="search--open">
-            <a id="search-bar" href="#"><i class="fas fa-search"></i></a>
+        <div class="search--open">
+            <a class="search-bar" href="#"><i class="fas fa-search"></i></a>
+        </div>
+        <div class="search--open display-only-mobile">
+            <a class="search-bar display-only-mobile" href="#"><i class="fas fa-bars display-only-mobile color-red"></i></a>
         </div>
     </header>
     
@@ -52,7 +56,8 @@
 
     <div class="cover">
         <div class="item-top span-row-2">
-            <div class="item-title-top top-img-1">
+            <div class="item-title-top top-img-1 top-left">
+                <h5 class="fontsize-20rem display-only__window">TNW</h5>
                 <p class="font-white">INSIGHTS</p>
                 <h5 class="larger">Google paid out $6.5 million in bug bounties in 2019</h5>
                 <p class="grey-font">by Mix  <i class="far fa-clock"></i>  12 hours ago <i class="fas fa-share-alt"></i> 5</p>
@@ -491,7 +496,6 @@
     </footer>
     <footer class="foot-notes">
         <p><a href="#">TNW</a>© 2006–2020 The Next Web B.V. Made with ♥ in Amsterdam. Powered by StackPath<a href="#">SKETCHPATH</a></p>
-
     </footer>
 
 </body>
