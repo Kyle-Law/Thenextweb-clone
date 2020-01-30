@@ -18,7 +18,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Kyle-Law/Thenextweb-clone/d76d56344deb7dbc1834575dd1a7f7dc17f547ac/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Kyle-Law/Thenextweb-clone/10d3cdb381f3a55599bac6523d6a238acef7b513/index.html)
 
 ## Authors
 
