@@ -1,63 +1,38 @@
-# Project Name
+# Thenextweb Clone
 
-> One paragraph statement about the project.
+> Website clone of [thenextweb.com](https://thenextweb.com/)
 
-![screenshot](./app_screenshot.png)
+![Screenshot](https://user-images.githubusercontent.com/55923773/73381815-5ba83500-4301-11ea-89f5-7c1e74725cb8.png)
 
-Additional description about the project and its features.
+## Descriptions
+- All elements are aligned with float, flex or grid.
+
+- Appropriate media queries are applied to make the website fully responsive across devices.
+
+- The page layout does not brake on smaller screen.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML, CSS
+- VSCode
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+[Live Demo Link](https://rawcdn.githack.com/Kyle-Law/Thenextweb-clone/7022e78f5936668dcf2fd7d79ed63e1d37a2d253/index.html)
 
 ## Authors
 
-👤 **Author1**
+👤 **Kyle Law**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@Kyle-Law](https://github.com/Kyle-Law)
+- Twitter: [@Kyle-Law](https://twitter.com/ZhunKhing)
+- Linkedin: [Kyle law](https://www.linkedin.com/in/kyle-lawzhunkhing/)
 
-👤 **Author2**
+👤 **Jaspreet Singh**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-## 🤝 Contributing
-
-Contributions, issues and feature requests are welcome!
-
-Feel free to check the [issues page](issues/).
+- Github: [@jaspreet-singh-sahota](https://github.com/jaspreet-singh-sahota)
+- Twitter: [@jaspree88033250](https://twitter.com/jaspree88033250)
+- Linkedin: [jaspreet Singh](https://www.linkedin.com/in/jaspreet-singh-a28286146/)
 
 ## Show your support
 
@@ -65,10 +40,5 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.
+- Microverse and TSEs
+- The Odin Project
